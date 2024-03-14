@@ -66,27 +66,39 @@
   mix-blend-mode: difference; /* Makes the cursor more visible */
  }
 
+ @keyframes scale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+ }
+
+ .animate-scale {
+  animation: scale 1s infinite alternate;
+ }
 </style>
 <body>
 
 
 <!-- HTML code -->
 <div class="fixed bottom-12 right-8 z-50 bg-green-600 p-3 rounded-full flex items-center justify-center cursor-pointer hover:bg-green-700">
-  <i class="fa-brands fa-whatsapp h-8 w-8 text-center items-center flex justify-center text-3xl text-white"></i>
+  <i class="fa-brands fa-whatsapp h-8 w-8 text-center items-center flex justify-center text-3xl text-white animate-scale"></i>
 </div>
+
+
+
 
 
 <div class="fixed bottom-12 left-8 flex flex-col gap-4 z-50">
   <div class="p-3 rounded-full flex items-center justify-center cursor-pointer hover:bg-green-700 shadow-xl relative" style="background-color: #3b5998;">
-    <i class="fab fa-facebook-f h-8 w-8 text-3xl text-white relative flex justify-center">
+    <i class="fab fa-facebook-f h-8 w-8 text-3xl text-white relative flex justify-center animate-scale">
     </i>
   </div>
   <div class="p-3 rounded-full flex items-center justify-center cursor-pointer hover:bg-green-700 shadow-xl relative" style="background-color: #c13584;">
-    <i class="fab fa-instagram h-8 w-8 text-3xl text-white relative flex justify-center">
+    <i class="fab fa-instagram h-8 w-8 text-3xl text-white relative flex justify-center animate-scale">
     </i>
   </div>
   <div class="p-3 rounded-full flex items-center justify-center cursor-pointer hover:bg-green-700 shadow-xl relative" style="background-color: #0e76a8;">
-    <i class="fab fa-linkedin-in h-8 w-8 text-3xl text-white relative flex justify-center">
+    <i class="fab fa-linkedin-in h-8 w-8 text-3xl text-white relative flex justify-center animate-scale">
     </i>
   </div>
 </div>
@@ -373,65 +385,65 @@
     <div class="flex flex-wrap -m-4 justify-center">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://grossify.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image1.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://nike-six-sooty.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image2.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://shoe-company-tau.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image3.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://break-io.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image3.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://break-io.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image2.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://shoe-company-tau.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image1.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://nike-six-sooty.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="images/image.jpg">
           <div class="w-full">
-            <a href="" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
+            <a href="https://grossify.vercel.app/" class="title-font font-medium text-lg text-gray-900 bg-gradient-to-r from-[#144997] to-[#e90004] bg-clip-text text-transparent hover:border-b-2 hover:border-black">View Full</a>
           </div>
         </div>
       </div>
@@ -584,6 +596,10 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
+<script type="text/javascript">
+    let name = prompt("How did you like this website?", "Amazing")
+</script>
 <script>
         $(document).ready(function () {
             $('.customer-logos').slick({
@@ -608,7 +624,6 @@
             });
         });
 </script>
-<script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
 <script>
   let numbers = document.querySelectorAll("[countTo]");
 
