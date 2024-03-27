@@ -3,6 +3,7 @@
  margin: 0px;
  padding: 0px;
  overflow-x: hidden;
+ background-color: white;
  }
 
      html {
@@ -11,6 +12,7 @@
  margin: 0px;
  padding: 0px;
  overflow-x: hidden;
+ background-color: white;
  }
 
 
@@ -56,3 +58,4 @@
   animation: scale 1s infinite alternate;
  }
 
+nav{background-color: white;}
