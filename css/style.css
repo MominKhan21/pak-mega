@@ -59,3 +59,43 @@
  }
 
 nav{background-color: white;}
+
+.hover:hover{
+   box-shadow: 0 0 10px;
+   animation: zoom 0.5s ease-in-out forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+.div-3 {
+        background-size: cover;
+        opacity: 0;
+        transition: .3s linear;
+        transform: translateX(-10vw);
+        visibility: hidden;
+    }
+    .div-3-ani {
+        opacity: 1;
+        transform: none;
+        transition: 1s cubic-bezier(.18, 0, 0, 1.2);
+        visibility: visible;
+    }
+    .div-4 {
+        box-shadow: 0 0 5px rgba(0,0,0,0.33);
+        opacity: 0;
+        transition: .3s linear;
+        transform: translateX(10vmin);
+    }
+    .div-4-ani {
+        opacity: 1;
+        transform: none;
+        transition: 1s cubic-bezier(.18, 0, 0, 1.2) .5s;
+    }
